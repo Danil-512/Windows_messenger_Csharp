@@ -1,0 +1,510 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\deaan\\Desktop\\wcf_chat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|c:\\users\\deaan\\desktop\\wcf_chat\\wcf_chat\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|solutionrelative:wcf_chat\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\servicechat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|solutionrelative:wcf_chat\\servicechat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\contactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|solutionrelative:wcf_chat\\contactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\contacts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\contacts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\zametki.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\zametki.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\menu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\menu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\errormy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|solutionrelative:wcf_chat\\errormy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\personal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\personal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\two_factor_reg.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\two_factor_reg.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\two_factor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\two_factor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\two_factor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\two_factor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|solutionrelative:wcf_chat\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\twofactclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|solutionrelative:wcf_chat\\twofactclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\newcontactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|solutionrelative:wcf_chat\\newcontactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\iservicechat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC74EF8D-39FA-4AF8-90AD-74C2E49F1A34}|wcf_chat\\wcf_chat.csproj|solutionrelative:wcf_chat\\iservicechat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\contacts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\contacts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\two_factor_reg.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\two_factor_reg.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\personal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\personal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|C:\\Users\\deaan\\Desktop\\wcf_chat\\chatclient\\zametki.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{378FEBEA-E8E0-4312-96ED-41AD3BE16B68}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\zametki.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 29,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\App.config",
+              "RelativeDocumentMoniker": "ChatClient\\App.config",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\App.config",
+              "RelativeToolTip": "ChatClient\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-02T10:25:53.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ChatClient\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\App.xaml.cs",
+              "RelativeToolTip": "ChatClient\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T10:24:47.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\App.xaml",
+              "RelativeDocumentMoniker": "ChatClient\\App.xaml",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\App.xaml",
+              "RelativeToolTip": "ChatClient\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-02T10:24:45.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\app.config",
+              "RelativeDocumentMoniker": "wcf_chat\\app.config",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\app.config",
+              "RelativeToolTip": "wcf_chat\\app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-13T02:00:37.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorMy.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\ErrorMy.cs",
+              "RelativeDocumentMoniker": "wcf_chat\\ErrorMy.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\ErrorMy.cs",
+              "RelativeToolTip": "wcf_chat\\ErrorMy.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T21:10:18.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Personal.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Personal.xaml.cs",
+              "RelativeDocumentMoniker": "ChatClient\\Personal.xaml.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Personal.xaml.cs",
+              "RelativeToolTip": "ChatClient\\Personal.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T19:29:59.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Personal.xaml",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Personal.xaml",
+              "RelativeDocumentMoniker": "ChatClient\\Personal.xaml",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Personal.xaml",
+              "RelativeToolTip": "ChatClient\\Personal.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-11T18:37:40.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Contacts.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Contacts.xaml.cs",
+              "RelativeDocumentMoniker": "ChatClient\\Contacts.xaml.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Contacts.xaml.cs",
+              "RelativeToolTip": "ChatClient\\Contacts.xaml.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAAAAABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T21:24:05.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Contacts.xaml",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Contacts.xaml",
+              "RelativeDocumentMoniker": "ChatClient\\Contacts.xaml",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Contacts.xaml",
+              "RelativeToolTip": "ChatClient\\Contacts.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-07T21:19:05.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Zametki.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Zametki.xaml.cs",
+              "RelativeDocumentMoniker": "ChatClient\\Zametki.xaml.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Zametki.xaml.cs",
+              "RelativeToolTip": "ChatClient\\Zametki.xaml.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwBMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T03:35:09.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Zametki.xaml",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Zametki.xaml",
+              "RelativeDocumentMoniker": "ChatClient\\Zametki.xaml",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Zametki.xaml",
+              "RelativeToolTip": "ChatClient\\Zametki.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-07T03:25:17.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Two_factor_reg.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Two_factor_reg.xaml.cs",
+              "RelativeDocumentMoniker": "ChatClient\\Two_factor_reg.xaml.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Two_factor_reg.xaml.cs",
+              "RelativeToolTip": "ChatClient\\Two_factor_reg.xaml.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:06:11.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Two_factor_reg.xaml",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Two_factor_reg.xaml",
+              "RelativeDocumentMoniker": "ChatClient\\Two_factor_reg.xaml",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Two_factor_reg.xaml",
+              "RelativeToolTip": "ChatClient\\Two_factor_reg.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T03:59:39.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Menu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Menu.xaml.cs",
+              "RelativeDocumentMoniker": "ChatClient\\Menu.xaml.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Menu.xaml.cs",
+              "RelativeToolTip": "ChatClient\\Menu.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:04:31.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Menu.xaml",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Menu.xaml",
+              "RelativeDocumentMoniker": "ChatClient\\Menu.xaml",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Menu.xaml",
+              "RelativeToolTip": "ChatClient\\Menu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-05T16:32:26.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ChatClient\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ChatClient\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T16:28:10.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ChatClient\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\MainWindow.xaml",
+              "RelativeToolTip": "ChatClient\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-11T19:38:56.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Two_factor.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Two_factor.xaml.cs",
+              "RelativeDocumentMoniker": "ChatClient\\Two_factor.xaml.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Two_factor.xaml.cs",
+              "RelativeToolTip": "ChatClient\\Two_factor.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:34:56.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Two_factor.xaml",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Two_factor.xaml",
+              "RelativeDocumentMoniker": "ChatClient\\Two_factor.xaml",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Two_factor.xaml",
+              "RelativeToolTip": "ChatClient\\Two_factor.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-05T14:22:05.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Main.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Main.xaml.cs",
+              "RelativeDocumentMoniker": "ChatClient\\Main.xaml.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Main.xaml.cs",
+              "RelativeToolTip": "ChatClient\\Main.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:50:17.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Main.xaml",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Main.xaml",
+              "RelativeDocumentMoniker": "ChatClient\\Main.xaml",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Main.xaml",
+              "RelativeToolTip": "ChatClient\\Main.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-05T17:25:16.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Login.xaml",
+              "RelativeDocumentMoniker": "ChatClient\\Login.xaml",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Login.xaml",
+              "RelativeToolTip": "ChatClient\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T08:54:51.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "ChatClient\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Login.xaml.cs",
+              "RelativeToolTip": "ChatClient\\Login.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:55:28.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Register.xaml",
+              "RelativeDocumentMoniker": "ChatClient\\Register.xaml",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Register.xaml",
+              "RelativeToolTip": "ChatClient\\Register.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T09:00:47.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "ChatClient\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\ChatClient\\Register.xaml.cs",
+              "RelativeToolTip": "ChatClient\\Register.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwD4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T09:01:30.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TwoFactClass.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\TwoFactClass.cs",
+              "RelativeDocumentMoniker": "wcf_chat\\TwoFactClass.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\TwoFactClass.cs",
+              "RelativeToolTip": "wcf_chat\\TwoFactClass.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwEsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T18:38:04.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceChat.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\ServiceChat.cs",
+              "RelativeDocumentMoniker": "wcf_chat\\ServiceChat.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\ServiceChat.cs",
+              "RelativeToolTip": "wcf_chat\\ServiceChat.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwCMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T21:42:28.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IServiceChat.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\IServiceChat.cs",
+              "RelativeDocumentMoniker": "wcf_chat\\IServiceChat.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\IServiceChat.cs",
+              "RelativeToolTip": "wcf_chat\\IServiceChat.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAA2wD8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T21:42:03.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\DataBase.cs",
+              "RelativeDocumentMoniker": "wcf_chat\\DataBase.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\DataBase.cs",
+              "RelativeToolTip": "wcf_chat\\DataBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:37:17.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactList.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\ContactList.cs",
+              "RelativeDocumentMoniker": "wcf_chat\\ContactList.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\ContactList.cs",
+              "RelativeToolTip": "wcf_chat\\ContactList.cs",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAuwNMBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T02:08:59.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NewContactList.cs",
+              "DocumentMoniker": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\NewContactList.cs",
+              "RelativeDocumentMoniker": "wcf_chat\\NewContactList.cs",
+              "ToolTip": "C:\\Users\\deaan\\Desktop\\wcf_chat\\wcf_chat\\NewContactList.cs",
+              "RelativeToolTip": "wcf_chat\\NewContactList.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T02:25:48.946Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+﻿<Page x:Class="ChatClient.Menu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ChatClient"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1200"
+      Title="Menu">
+
+    <Grid Background="White" Loaded="Grid_Loaded">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="1" Grid.ColumnSpan="2"  Margin="0,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Главная страница" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+        <Button x:Name="backButton" Grid.Column="3" Grid.Row="7" Content="Выйти из аккаунта" HorizontalAlignment="Right" Width="150" Margin="0,50,0,0" FontSize="15" Background="#FFE6E6E6" Click="backButton_Click"/>
+        <Button x:Name="zametkiButton" Grid.Column="1" Grid.ColumnSpan="2" Content="Заметки" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" FontSize="20" Height="40" Width="400" Click="zametkiButton_Click"/>
+        <TextBlock x:Name="activeUserTextBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Аккаунт:" VerticalAlignment="Top" FontSize="20"/>
+
+        <Button x:Name="contactsButton" Grid.Column="1" Grid.ColumnSpan="2" Content="Контакты" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" FontSize="20" Height="40" Width="400" Click="contactsButton_Click" Margin="0,0,0,0"/>
+        <Button x:Name="personalButton" Grid.Column="1" Grid.ColumnSpan="2" Content="Профиль" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" FontSize="20" Height="40" Width="400" Click="personalButton_Click" Margin="0,0,0,0"/>
+
+    </Grid>
+</Page>

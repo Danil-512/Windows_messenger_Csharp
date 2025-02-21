@@ -1,0 +1,14 @@
+﻿<Window x:Class="ChatClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatClient"
+        mc:Ignorable="d"
+        Title="Курсовой проект" Height="800" Width="1200">
+    
+    <Grid Background="White">
+        <Frame Visibility="Visible"  x:Name="frame2" Grid.ColumnSpan="1" Grid.RowSpan="1" Foreground="White" Background="White"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="ServiceChat" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IServiceChat_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8301/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8301/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8301/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System" />
+      <xsd:import schemaLocation="http://localhost:8301/?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceChat_NewUserData_InputMessage">
+    <wsdl:part name="parameters" element="tns:NewUserData" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_NewUserData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NewUserDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_GetUserData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserData" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_GetUserData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_NewMessChat_InputMessage">
+    <wsdl:part name="parameters" element="tns:NewMessChat" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_NewMessChat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NewMessChatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_GetContList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetContList" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_GetContList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetContListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_NewCont_InputMessage">
+    <wsdl:part name="parameters" element="tns:NewCont" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_NewCont_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NewContResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_GetChatMesList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetChatMesList" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_GetChatMesList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetChatMesListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_NewBlackCont_InputMessage">
+    <wsdl:part name="parameters" element="tns:NewBlackCont" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_NewBlackCont_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NewBlackContResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_DelBlackCont_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelBlackCont" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_DelBlackCont_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelBlackContResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_DelCont_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelCont" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_DelCont_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelContResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_TwoFact_InputMessage">
+    <wsdl:part name="parameters" element="tns:TwoFact" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_TwoFact_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TwoFactResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_GetUserNotes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserNotes" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_GetUserNotes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserNotesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_AddUserNote_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddUserNote" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_AddUserNote_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddUserNoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_DellUserNote_InputMessage">
+    <wsdl:part name="parameters" element="tns:DellUserNote" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_DellUserNote_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DellUserNoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_two_access_InputMessage">
+    <wsdl:part name="parameters" element="tns:two_access" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_two_access_OutputMessage">
+    <wsdl:part name="parameters" element="tns:two_accessResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_two_access_izm_InputMessage">
+    <wsdl:part name="parameters" element="tns:two_access_izm" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_two_access_izm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:two_access_izmResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_get_active_login_InputMessage">
+    <wsdl:part name="parameters" element="tns:get_active_login" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_get_active_login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:get_active_loginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_Register_InputMessage">
+    <wsdl:part name="parameters" element="tns:Register" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_Register_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceChat_MsgCallback_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:MsgCallback" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceChat">
+    <wsdl:operation name="NewUserData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/NewUserData" message="tns:IServiceChat_NewUserData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/NewUserDataResponse" message="tns:IServiceChat_NewUserData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/GetUserData" message="tns:IServiceChat_GetUserData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/GetUserDataResponse" message="tns:IServiceChat_GetUserData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NewMessChat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/NewMessChat" message="tns:IServiceChat_NewMessChat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/NewMessChatResponse" message="tns:IServiceChat_NewMessChat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetContList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/GetContList" message="tns:IServiceChat_GetContList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/GetContListResponse" message="tns:IServiceChat_GetContList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NewCont">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/NewCont" message="tns:IServiceChat_NewCont_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/NewContResponse" message="tns:IServiceChat_NewCont_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChatMesList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/GetChatMesList" message="tns:IServiceChat_GetChatMesList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/GetChatMesListResponse" message="tns:IServiceChat_GetChatMesList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NewBlackCont">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/NewBlackCont" message="tns:IServiceChat_NewBlackCont_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/NewBlackContResponse" message="tns:IServiceChat_NewBlackCont_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelBlackCont">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/DelBlackCont" message="tns:IServiceChat_DelBlackCont_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/DelBlackContResponse" message="tns:IServiceChat_DelBlackCont_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelCont">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/DelCont" message="tns:IServiceChat_DelCont_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/DelContResponse" message="tns:IServiceChat_DelCont_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/Login" message="tns:IServiceChat_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/LoginResponse" message="tns:IServiceChat_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TwoFact">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/TwoFact" message="tns:IServiceChat_TwoFact_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/TwoFactResponse" message="tns:IServiceChat_TwoFact_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserNotes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/GetUserNotes" message="tns:IServiceChat_GetUserNotes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/GetUserNotesResponse" message="tns:IServiceChat_GetUserNotes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddUserNote">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/AddUserNote" message="tns:IServiceChat_AddUserNote_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/AddUserNoteResponse" message="tns:IServiceChat_AddUserNote_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DellUserNote">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/DellUserNote" message="tns:IServiceChat_DellUserNote_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/DellUserNoteResponse" message="tns:IServiceChat_DellUserNote_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="two_access">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/two_access" message="tns:IServiceChat_two_access_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/two_accessResponse" message="tns:IServiceChat_two_access_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="two_access_izm">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/two_access_izm" message="tns:IServiceChat_two_access_izm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/two_access_izmResponse" message="tns:IServiceChat_two_access_izm_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="get_active_login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/get_active_login" message="tns:IServiceChat_get_active_login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/get_active_loginResponse" message="tns:IServiceChat_get_active_login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceChat/Register" message="tns:IServiceChat_Register_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/RegisterResponse" message="tns:IServiceChat_Register_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MsgCallback">
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceChat/MsgCallback" message="tns:IServiceChat_MsgCallback_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_IServiceChat" type="tns:IServiceChat">
+    <wsp:PolicyReference URI="#NetTcpBinding_IServiceChat_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="NewUserData">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/NewUserData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserData">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/GetUserData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewMessChat">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/NewMessChat" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetContList">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/GetContList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewCont">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/NewCont" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChatMesList">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/GetChatMesList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewBlackCont">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/NewBlackCont" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelBlackCont">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/DelBlackCont" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelCont">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/DelCont" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TwoFact">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/TwoFact" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserNotes">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/GetUserNotes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddUserNote">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/AddUserNote" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DellUserNote">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/DellUserNote" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="two_access">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/two_access" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="two_access_izm">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/two_access_izm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="get_active_login">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/get_active_login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/Register" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MsgCallback">
+      <soap12:operation soapAction="http://tempuri.org/IServiceChat/MsgCallback" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceChat">
+    <wsdl:port name="NetTcpBinding_IServiceChat" binding="tns:NetTcpBinding_IServiceChat">
+      <soap12:address location="net.tcp://localhost:8302/" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:8302/</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>DESKTOP-HR0C7M0\deaan</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
